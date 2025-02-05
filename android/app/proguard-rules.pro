@@ -1,0 +1,4 @@
+-keep class com.google.** { *; }
+-keep class org.tensorflow.** { *; }
+-dontwarn com.google.**
+-dontwarn org.tensorflow.**
